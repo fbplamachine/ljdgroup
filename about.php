@@ -632,7 +632,7 @@
                              data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <figure class="image-box">
-                                    <img src="assets/images/team/team-3.jpg" alt="">
+                                    <img src="assets/images/team/team-1.jpg" alt="">
                                     <div class="content-box clearfix">
                                         <span>Connect</span>
                                         <ul class="social-links">
@@ -655,7 +655,7 @@
                              data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <figure class="image-box">
-                                    <img src="assets/images/team/team-4.jpg" alt="">
+                                    <img src="assets/images/team/team-2.jpg" alt="">
                                     <div class="content-box clearfix">
                                         <span>Connect</span>
                                         <ul class="social-links">

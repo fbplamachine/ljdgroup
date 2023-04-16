@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Recvite.iml" filepath="$PROJECT_DIR$/.idea/Recvite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ljdgroup/.idea/ljdgroup.iml" filepath="$PROJECT_DIR$/../ljdgroup/.idea/ljdgroup.iml" />
     </modules>
   </component>
 </project>
