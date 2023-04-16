@@ -60,10 +60,10 @@
                     </ul>
                     <div class="language-box">
                         <img src="assets/images/icons/flag-1.png" alt="">
-                        <a href="index.html" class="text">English</a>
+                        <a href="index.php" class="text">English</a>
                         <ul class="language-list">
-                            <li><a href="index.html">English</a></li>
-                            <li><a href="index.html">Français</a></li>
+                            <li><a href="index.php">English</a></li>
+                            <li><a href="index.php">Français</a></li>
                         </ul>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
         <div class="header-lower">
             <div class="outer-box">
                 <div class="logo-box">
-                    <figure class="logo"><a href="index.html"><img src="assets/images/logo_b.png" alt=""></a></figure>
+                    <figure class="logo"><a href="index.php"><img src="assets/images/logo_b.png" alt=""></a></figure>
                 </div>
                 <div class="menu-area">
                     <!--Mobile Navigation Toggler-->
@@ -86,13 +86,13 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li><a href="index.html">Accueil</a></li>
-                                <li><a href="about.html">Qui sommes nous?</a></li>
+                                <li><a href="index.php">Accueil</a></li>
+                                <li><a href="about.php">Qui sommes nous?</a></li>
                                 <li class="current"><a href="service.html">Services</a></li>
-                                <li><a href="blog-2.html">Actualités</a></li>
-                                <li><a href="project.html">Nos clients</a></li>
+                                <li><a href="blog-2.php">Actualités</a></li>
+                                <li><a href="project.php">Nos clients</a></li>
                                 <li><a href="#">Trouvez un job</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -125,7 +125,7 @@
         <div class="sticky-header">
             <div class="outer-box">
                 <div class="logo-box">
-                    <figure class="logo"><a href="index.html"><img src="assets/images/logo_b.png" alt=""></a></figure>
+                    <figure class="logo"><a href="index.php"><img src="assets/images/logo_b.png" alt=""></a></figure>
                 </div>
                 <div class="menu-area">
                     <nav class="main-menu clearfix">
@@ -164,7 +164,7 @@
         <div class="close-btn"><i class="fas fa-times"></i></div>
 
         <nav class="menu-box">
-            <div class="nav-logo"><a href="index.html"><img src="assets/images/logo_b.png" alt="" title=""></a></div>
+            <div class="nav-logo"><a href="index.php"><img src="assets/images/logo_b.png" alt="" title=""></a></div>
             <div class="menu-outer">
                 <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             <div class="contact-info">
@@ -357,18 +357,18 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="links-list clearfix">
-                                        <li><a href="about.html">Trouvez un job</a></li>
+                                        <li><a href="about.php">Trouvez un job</a></li>
                                         <li><a href="service.html">Nos services</a></li>
                                         <li><a href="#">Conseil RH</a></li>
-                                        <li><a href="blog-2.html">Actualités</a></li>
-                                        <li><a href="contact.html">Nous contacter</a></li>
+                                        <li><a href="blog-2.php">Actualités</a></li>
+                                        <li><a href="contact.php">Nous contacter</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget logo-widget">
-                                <figure class="footer-logo"><a href="index.html"><img
+                                <figure class="footer-logo"><a href="index.php"><img
                                         src="assets/images/logo_b.png" alt=""></a></figure>
                                 <p>LJD Consulting Group est un Groupe International réalisant des projets de développement en Afrique de l'Ouest et Centrale, dont le centre opérationnel d' activités est basé au Cameroun et le siège social à Toronto, au Canada.</p>
                                 <ul class="social-links clearfix">

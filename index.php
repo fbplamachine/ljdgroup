@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-    <title>LJD MANPOWER & SERVICES CAMEROON - Nos réalisations</title>
+    <title>LJD MANPOWER & SERVICES CAMEROON - Accueil</title>
 
     <!-- Fav Icon -->
     <link rel="icon" href="assets/images/logo-gradient.png" type="image/x-icon">
@@ -86,13 +86,14 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li><a href="index.html">Accueil</a></li>
-                                <li><a href="about.html">Qui sommes nous?</a></li>
-                                <li><a href="service.html">Services</a></li>
-                                <li><a href="blog-2.html">Actualités</a></li>
-                                <li class="current"><a href="project.html">Nos clients</a></li>
+                                <li class="current"><a href="index.html">Accueil</a>
+                                </li>
+                                <li><a href="about.php">Qui sommes nous?</a></li>
+                                <li><a href="service.php">Services</a></li>
+                                <li><a href="blog-2.php">Actualités</a></li>
+                                <li><a href="project.php">Nos clients</a></li>
                                 <li><a href="#">Trouvez un job</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -188,126 +189,96 @@
     <!-- End Mobile Menu -->
 
 
-    <!-- Page Title -->
-    <section class="page-title centred" style="background-image: url(assets/images/background/page-title-1.jpg);">
-        <div class="auto-container">
-            <div class="content-box">
-                <div class="title">
-                    <h1>Nos réalisations</h1>
+    <!-- banner-section -->
+    <section class="banner-section">
+        <div class="banner-carousel owl-theme owl-carousel owl-dots-none">
+            <div class="slide-item">
+                <div class="image-layer" style="background-image:url(assets/images/banner/slider-1.jpg)"></div>
+                <div class="auto-container">
+                    <div class="content-box">
+                        <h1>Gestion des ressources humaines</h1>
+                        <p>Nous jouons un rôle important dans la croissance de l'entreprise et agissons donc en tant que << Made Generator >>.</p>
+                        <div class="btn-box">
+                            <a href="#" class="theme-btn-one">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item">
+                <div class="image-layer" style="background-image:url(assets/images/banner/slider-5.jpg)"></div>
+                <div class="auto-container">
+                    <div class="content-box">
+                        <h1>Consultation et conseil</h1>
+                        <p>Nous vous assistons dans la gestion de vos projets et améliorons vos performances.</p>
+                        <div class="btn-box">
+                            <a href="#" class="theme-btn-one">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item">
+                <div class="image-layer" style="background-image:url(assets/images/banner/slider-3.jpg)"></div>
+                <div class="auto-container">
+                    <div class="content-box">
+                        <h1>Gestion externe de la paie</h1>
+                        <p>La solution de paie professionnelle que nous offrons est conçue pour vous simplifier la gestion de la paie et des avantages sociaux.</p>
+                        <div class="btn-box">
+                            <a href="#" class="theme-btn-one">En savoir plus</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Page Title -->
+    <!-- banner-section end -->
 
 
-    <!-- porject-page-section -->
-    <section class="porject-page-section">
+    <!-- funfact-section -->
+    <section class="funfact-section centred">
         <div class="auto-container">
-            <div class="sortable-masonry">
-                <div class="filters centred">
-                    <ul class="filter-tabs filter-btns clearfix">
-                        <li class="active filter" data-role="button" data-filter=".all">Tous <span>(6)</span></li>
-                        <li class="filter" data-role="button" data-filter=".business">Télécommunication</li>
-                        <li class="filter" data-role="button" data-filter=".consulting">Banque</li>
-                        <li class="filter" data-role="button" data-filter=".stuffing">Restauration</li>
-                        <li class="filter" data-role="button" data-filter=".technology">Transport</li>
-                    </ul>
-                </div>
-                <div class="items-container row clearfix">
-                    <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all stuffing business consulting">
-                        <div class="project-block-one">
+            <div class="inner-container">
+                <div class="row clearfix">
+                    <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
+                        <div class="counter-block-one">
                             <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/gallery/project-10.jpg" alt="">
-                                </figure>
-                                <div class="link">
-                                    <a href="assets/images/gallery/project-10.jpg" class="lightbox-image"
-                                       data-fancybox="gallery"><i class="flaticon-plus"></i></a>
+                                <div class="icon-box"><i class="flaticon-scrum"></i></div>
+                                <div class="count-outer count-box">
+                                    <span class="count-text" data-speed="1500" data-stop="8080">0</span>
                                 </div>
-                                <div class="text">
-                                    <p>Business</p>
-                                    <h3><a href="project-details.html">Staffing Solutions</a></h3>
-                                </div>
+                                <p>Projets Réalisés</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all business stuffing technology">
-                        <div class="project-block-one">
+                    <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
+                        <div class="counter-block-one">
                             <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/gallery/project-11.jpg" alt="">
-                                </figure>
-                                <div class="link">
-                                    <a href="assets/images/gallery/project-11.jpg" class="lightbox-image"
-                                       data-fancybox="gallery"><i class="flaticon-plus"></i></a>
+                                <div class="icon-box"><i class="flaticon-business-idea"></i></div>
+                                <div class="count-outer count-box">
+                                    <span class="count-text" data-speed="1500" data-stop="697">0</span>
                                 </div>
-                                <div class="text">
-                                    <p>Business</p>
-                                    <h3><a href="project-details.html">Staffing Solutions</a></h3>
-                                </div>
+                                <p>Supports Apportés</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all consulting consulting technology">
-                        <div class="project-block-one">
+                    <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
+                        <div class="counter-block-one">
                             <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/gallery/project-12.jpg" alt="">
-                                </figure>
-                                <div class="link">
-                                    <a href="assets/images/gallery/project-12.jpg" class="lightbox-image"
-                                       data-fancybox="gallery"><i class="flaticon-plus"></i></a>
+                                <div class="icon-box"><i class="flaticon-recruit"></i></div>
+                                <div class="count-outer count-box">
+                                    <span class="count-text" data-speed="1500" data-stop="440">0</span>
                                 </div>
-                                <div class="text">
-                                    <p>Business</p>
-                                    <h3><a href="project-details.html">Staffing Solutions</a></h3>
-                                </div>
+                                <p>Bureaux dans le monde</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all business stuffing technology">
-                        <div class="project-block-one">
+                    <div class="col-lg-3 col-md-6 col-sm-12 counter-block">
+                        <div class="counter-block-one">
                             <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/gallery/project-13.jpg" alt="">
-                                </figure>
-                                <div class="link">
-                                    <a href="assets/images/gallery/project-13.jpg" class="lightbox-image"
-                                       data-fancybox="gallery"><i class="flaticon-plus"></i></a>
+                                <div class="icon-box"><i class="flaticon-customer-review"></i></div>
+                                <div class="count-outer count-box">
+                                    <span class="count-text" data-speed="1500" data-stop="2887">0</span>
                                 </div>
-                                <div class="text">
-                                    <p>Business</p>
-                                    <h3><a href="project-details.html">Staffing Solutions</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all stuffing business consulting">
-                        <div class="project-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/gallery/project-14.jpg" alt="">
-                                </figure>
-                                <div class="link">
-                                    <a href="assets/images/gallery/project-14.jpg" class="lightbox-image"
-                                       data-fancybox="gallery"><i class="flaticon-plus"></i></a>
-                                </div>
-                                <div class="text">
-                                    <p>Business</p>
-                                    <h3><a href="project-details.html">Staffing Solutions</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 masonry-item small-column all business stuffing technology">
-                        <div class="project-block-one">
-                            <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/gallery/project-15.jpg" alt="">
-                                </figure>
-                                <div class="link">
-                                    <a href="assets/images/gallery/project-15.jpg" class="lightbox-image"
-                                       data-fancybox="gallery"><i class="flaticon-plus"></i></a>
-                                </div>
-                                <div class="text">
-                                    <p>Business</p>
-                                    <h3><a href="project-details.html">Staffing Solutions</a></h3>
-                                </div>
+                                <p>Clients Satisfaits</p>
                             </div>
                         </div>
                     </div>
@@ -315,7 +286,122 @@
             </div>
         </div>
     </section>
-    <!-- porject-page-section end -->
+    <!-- funfact-section end -->
+
+
+    <!-- about-section -->
+    <section class="about-section">
+        <div class="auto-container">
+            <div class="row clearfix">
+                <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                    <div class="image_block_1">
+                        <div class="image-box">
+                            <figure class="image image-1"><img src="assets/images/resource/about-1.jpg" alt=""></figure>
+                            <figure class="image image-2"><img src="assets/images/resource/about-2.jpg" alt=""></figure>
+                            <div class="image-content">
+                                <div class="icon-box"><i class="flaticon-recruitment"></i></div>
+                                <h5>Qui sommes-nous ?</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                    <div class="content_block_1">
+                        <div class="content-box">
+                            <div class="sec-title">
+                                <h2>Nous réinventons le recrutement</h2>
+                            </div>
+                            <div class="text">
+                                <p class="text-justify">LJD MANPOWER & SERVICES CAMEROON LTD,
+                                    est société de droit Camerounais crée en 2014 et agrée par le Ministère de l’Emploi et de la
+                                    Formation Professionnelle au Cameroun. La société est établie pour être une passerelle
+                                    entre celle qui pourvoit des opportunités d’emploi auprès des/aux Entreprises
+                                    Utilisatrices (Demandeuses de main d’œuvre) et les chercheurs d’emploi.</p>
+                            </div>
+                            <div class="inner-box clearfix">
+                                <div class="single-item">
+                                    <h5><span>01</span>Notre vision</h5>
+                                    <p>Notre vision est de faire de LJD MANPOWER & SERVICES
+                                        CAMEROON une référence à <br/> l’échelle nationale et internationale <br/> en
+                                        matière de consultations RH.</p>
+                                </div>
+                                <div class="single-item">
+                                    <h5><span>02</span>Nos atouts</h5>
+                                    <ul>
+                                        <li style="list-style: disc">
+                                            Une bonne surface financière
+                                        </li>
+                                        <li style="list-style: disc">
+                                            Une grande expérience
+                                        </li>
+                                        <li style="list-style: disc">
+                                            Une large implantation internationale
+                                        </li>
+                                        <li style="list-style: disc">
+                                            Une qualité approuvée
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about-section end -->
+
+
+    <!-- testimonial-section -->
+    <section class="testimonial-section centred">
+        <div class="auto-container">
+            <div class="inner-container">
+                <h2 class="sec-title">Témoignages clients</h2>
+                <div class="three-item-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
+                    <div class="testimonial-block-one">
+                        <div class="inner-box">
+                            <div class="icon-box">"</div>
+                            <p>This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</p>
+                            <h5>Mike Hardson</h5>
+                            <figure class="image-box"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-one">
+                        <div class="inner-box">
+                            <div class="icon-box">"</div>
+                            <p>This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</p>
+                            <h5>Christine Eve</h5>
+                            <figure class="image-box"><img src="assets/images/resource/testimonial-2.png" alt=""></figure>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-one">
+                        <div class="inner-box">
+                            <div class="icon-box">"</div>
+                            <p>This is due to their excellent service, competitive pricing and customer support. It’s throughly refresing to get such a personal touch.</p>
+                            <h5>Christine Eve</h5>
+                            <figure class="image-box"><img src="assets/images/resource/testimonial-3.png" alt=""></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial-section end -->
+
+
+    <!-- clients-section -->
+    <section class="clients-section">
+        <div class="auto-container">
+            <h2 class="sec-title text-center">Plus de 7,962 clients nous ont fait confiance.</h2>
+            <div class="clients-carousel owl-carousel owl-theme owl-nav-none owl-dots-none">
+                <figure class="clients-logo-box"><img src="assets/images/clients/brand-1.png" alt=""></figure>
+                <figure class="clients-logo-box"><img src="assets/images/clients/brand-2.png" alt=""></figure>
+                <figure class="clients-logo-box"><img src="assets/images/clients/brand-3.png" alt=""></figure>
+                <figure class="clients-logo-box"><img src="assets/images/clients/brand-4.png" alt=""></figure>
+            </div>
+        </div>
+    </section>
+    <!-- clients-section end -->
 
 
     <!-- main-footer -->
@@ -356,11 +442,11 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="links-list clearfix">
-                                        <li><a href="about.html">Trouvez un job</a></li>
-                                        <li><a href="service.html">Nos services</a></li>
+                                        <li><a href="about.php">Trouvez un job</a></li>
+                                        <li><a href="service.php">Nos services</a></li>
                                         <li><a href="#">Conseil RH</a></li>
-                                        <li><a href="blog-2.html">Actualités</a></li>
-                                        <li><a href="contact.html">Nous contacter</a></li>
+                                        <li><a href="blog-2.php">Actualités</a></li>
+                                        <li><a href="contact.php">Nous contacter</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -435,11 +521,11 @@
 <script src="assets/js/jquery.fancybox.js"></script>
 <script src="assets/js/appear.js"></script>
 <script src="assets/js/scrollbar.js"></script>
-<script src="assets/js/isotope.js"></script>
 
 <!-- main-js -->
 <script src="assets/js/script.js"></script>
 
-</body><!-- End of .page_wrapper -->
+</body>
+<!-- End of .page_wrapper -->
 
 </html>
